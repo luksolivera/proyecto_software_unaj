@@ -14,8 +14,9 @@ Debemos instalar GIT desde https://git-scm.com/downloads y además crear una cue
  
 Para Git reconozca tu cuenta debemos configurarla, para eso abrimos la consola de Git y ejecutamos...
  
-```csharp
+```bash
  $ git config --global user.name "John Doe"
+ ---
  $ git config --global user.email johndoe@example.com
 ```
  
@@ -25,7 +26,7 @@ Para Git reconozca tu cuenta debemos configurarla, para eso abrimos la consola d
 Para comenzar clonaremos el siguiente repositorio de Github: https://github.com/luksolivera/proyecto_software_unaj.git en alguna directorio de nuestra maquina.
  
  
-```csharp
+```bash
 $ git clone https://github.com/luksolivera/proyecto_software_unaj.git
 ```
  
@@ -35,7 +36,7 @@ El comando `git clone` clona un repositorio de Git a un directorio local.
  
 Nos posicionamos dentro del directorio y creamos un archivo de texto que llamaremos "Agenda.txt"
  
-```csharp
+```bash
 $ cd proyecto_software_unaj/
  
 $ nano Agenda.txt
@@ -43,7 +44,7 @@ $ nano Agenda.txt
  
 agregaremos unos numeros de telefono a nuestra agenda.
  
-```csharp
+```bash
 $ cat Agenda.txt
  
 Carlos = 123456789
@@ -53,7 +54,7 @@ podemos visualizar el cambio que realizamos al repositorio ejecutando el comando
  
 > El comando `git status` : Nos indica el estado del repositorio, por ejemplo cuales están modificados, cuales no están siendo seguidos por GIT, entre otras características.
  
-```csharp
+```bash
 $ git status
  
 On branch master
@@ -72,9 +73,11 @@ Git nos indica que tenemos un archivo que no se ha añadido, es decir se encuent
  
 Para añadirlo, realizamos el siguiente comando.
  
-```csharp
+```bash
 $ git add Agenda.txt
- 
+
+---
+
 $ git status
  
 On branch master
@@ -96,7 +99,7 @@ en este instante el archivo `Agenda.txt` se encuentra añadido.
  
 Abrimos el archivo de `Agenda.txt` y agregamos un nuevo número.
  
-```csharp
+```bash
 $ cat Agenda.txt
  
 Carlos = 123456789
@@ -106,7 +109,7 @@ Lucas = 987654321
  
 analizamos el estado del repositorio
  
-```csharp
+```bash
 $ git status
  
 On branch master
@@ -133,7 +136,7 @@ Git nos informa que tenemos un archivo preparado y un archivo que fue modificado
  
 > * Puedes usar `git diff +Path` para ver los cambios en el archivo que ya están preparados y los cambios que no lo están. Si nuestro ambiente es como este:
  
-```csharp
+```diff
 $ git diff Agenda.txt
  
 warning: LF will be replaced by CRLF in Agenda.txt.
@@ -154,7 +157,7 @@ Realizaremos la confirmación de los cambios.
  
 > El comando `git commit` confirma nuestros cambios. habitualmente se agrega `-m` para realizar un comentario a la confirmación. Utilizando `-am` en el commit estamos realizando el comando `git add` a los archivos que fueron modificados.
  
-```csharp
+```bash
 $ git status
  
 On branch master
@@ -170,9 +173,11 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
  
         modified:   Agenda.txt
- 
+```
+```bash
 $ git add -A
- 
+```
+```bash
 $ git commit -m "commit de agenda"
  
 [master 1342517] commit de agenda
@@ -187,7 +192,7 @@ podemos ver el historial de cambios del repositorio con la siguiente instrucció
  
 > `git log` muestra el historial de commits que posee el branch, utilizaremos `git log --graph` para obtener una mejor visión.
  
-```csharp
+```bash
 $ git log --graph
  
 * commit 1342517e0356804fc69e583faa46188e9ae1136a (HEAD -> master)
@@ -225,9 +230,11 @@ Primer paso, vamos a crear una nueva rama en el repositorio.
  
 Creamos una rama con su nombre y apellido.
  
-```csharp
+```bash
 $ git branch ProyectoSoftware
- 
+
+---
+
 $ git branch
  
   ProyectoSoftware
@@ -238,7 +245,7 @@ $ git branch
 Para realizar un cambio de rama utilizamos el comando `checkout`
  
 > `git checkout <nombre-rama>` Sirve para moverse entre branches, en este caso vamos al branch que indicamos en el comando.
-```csharp
+```bash
 $ git checkout ProyectoSoftware
  
 Switched to branch 'ProyectoSoftware'
@@ -258,7 +265,7 @@ Realizar en esta rama :
  
 Resultado esperado:
  
-```csharp
+```bash
 $ git log --graph
  
 * commit 9887a8fba2aa0abbe3e4a6a6c84f1432bff35b2c (HEAD -> ProyectoSoftware)
@@ -294,13 +301,15 @@ $ git log --graph
  
  Resultado esperado:
  
- ```csharp
+ ```bash
 $ git checkout ProyectoSoftware
  
-error: Your local changes to the following files would be overwritten by checkout:
+    error: Your local changes to the following files would be overwritten by 
+    checkout:
         Agenda.txt
-Please commit your changes or stash them before you switch branches.
-Aborting
+    Please commit your changes or stash them before you switch branches.
+    Aborting
+
  ```
  
 >Cómo realizamos cambios y los commit de las ramas son distintas, git no nos permite realizar el cambio de rama debido a que podemos perder los cambios realizado.
@@ -316,7 +325,7 @@ Con las actividades realizadas, tenemos dos ramas que se encuentran en diferente
  
 Nos ubicamos en la rama master y procedemos a realizar el merge.
  
-```csharp
+```bash
  
 $ git merge ProyectoSoftware
  
@@ -327,7 +336,7 @@ Automatic merge failed; fix conflicts and then commit the result
 ```
 Al modificar el mismo archivo en las dos ramas, Git nos informa que ha ocurrido un conflicto y fallo el merge. Si analizamos el archivo Agenda.
  
-```csharp
+```diff
 $ cat Agenda.txt
  
 Carlos = 123456789
@@ -344,7 +353,7 @@ Git nos crea esas etiquetas para que sepamos los datos que existen en una rama y
  
 Procedemos a eliminar la etiqueta y mantener toda la info 
  
-```csharp
+```bash
 $ cat Agenda.txt
  
 Carlos = 123456789
@@ -355,11 +364,12 @@ Jose = 541646544
 ```
  
 Debemos confirmar esta corrección.
-```csharp
+```bash
 $ git commit -am "merge"
  
 [master 7c4847d] merge
- 
+```
+```bash
 $ git log --graph
  
 *   commit 7c4847d82f8739108dfe499a75a9c2fbf81534c9 (HEAD -> master)
@@ -398,7 +408,7 @@ $ git log --graph
  
 >NOTA: Cuando se trabaja en equipo, siempre se debe realizar un pull antes de un push, debido a que puede ser que un compañero haya realizado cambios y no poseas la última versión.
  
-```csharp
+```bash
 $ git pull origin master
  
 From https://github.com/luksolivera/proyecto_software_unaj
@@ -411,7 +421,7 @@ Creamos una nueva rama desde master llamada "nombreApellidoFecha" y realizamos e
  
  
  
-```csharp
+```bash
 $ git push origin ProyectoSoftwareFecha
  
 Total 0 (delta 0), reused 0 (delta 0)

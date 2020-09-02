@@ -1,5 +1,8 @@
-lucas = 987654321
-Carlos = 123456789
+lopez = 43553535
+ramon = 65789300
+romeo = 45454545454
+israel = 1554756732
+chespirito = 12436587
 Pablo = 987654321
 Luis = 548465418
 Maxi = 123456789

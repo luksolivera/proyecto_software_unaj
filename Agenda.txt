@@ -2,11 +2,12 @@ Juan = 4251
 lucas = 987654321
 Carlos = 123456789
 Claudio = 1134992275
-
-
-
-
-
-
-
+Carlos = 123456789
+Lucas = 987654321
+Sofia = 1185475632
+Sabrina = 1123478520
+Gerardo = 1174852036
+Agustin = 1174102589
+Lautaro = 1100258896
+Javier = 1122684562
 

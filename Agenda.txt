@@ -1,3 +1,9 @@
 Juan = 4251
+<<<<<<< HEAD
 Sergio = 456789
 Jorge = 46578
+=======
+Juan = 4251
+Sergio = 456789
+Pedro = 96754
+>>>>>>> ProyectoSoftware

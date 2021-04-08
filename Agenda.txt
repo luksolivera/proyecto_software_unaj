@@ -1,3 +1,4 @@
 Juan = 4251
+Juan = 4251
 Sergio = 456789
-
+Pedro = 96754

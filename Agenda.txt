@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 Martin = 0303456
 Juan = 4251
+=======
+>>>>>>> ProyectoSoftware
 lucas = 987654321
 Carlos = 1234567892
 raul = 99999999999999999999999
 pepe = 894328934289342
-
-
+Carlos = 123456789
+Jose = 987654321
+ferpa = 11444558

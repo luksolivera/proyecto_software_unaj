@@ -1,3 +1,4 @@
+
   GNU nano 5.6.1                      Agenda.txt
 Juan = 4251
 lucas = 987654321
@@ -23,12 +24,11 @@ huevo = 8212121212121212211
                   [ Read 7 lines (Converted from DOS format) ]
 ^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location
 ^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^_ Go To Line
+=======
+>>>>>>> ProyectoSoftware
 cat Agenda.txt
 Carlos = 123456789
-Juan = 4251
-lucas = 987654321
-Carlos = 1234567892
-raul = 99999999999999999999999
-pepe = 894328934289342
+Yo = 5454545454 
+
 
 

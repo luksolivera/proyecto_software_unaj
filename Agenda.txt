@@ -1,6 +1,10 @@
 Giuliano =  255
 Roberto = 777
 Saul = 888
+Sofia = 325
+Juan = 4251
+lucas = 987654321
+Carlos = 1234567892
 raul = 99999999999999999999999
 pepe = 894328934289342
 

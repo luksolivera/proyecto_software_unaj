@@ -2,6 +2,16 @@ Juan = 4251
 lucas = 987654321
 Carlos = 1234567892
 raul = 99999999999999999999999
-pepe = 894328934289342
+pepe = 8943289342893
+Gaston = 1123466775
+Carlos = 1234242322
+<<<<<<< HEAD
+Ulises = 1123998823
+Messi = 10
+=======
+Daiana = 123498765
+Milagros = 9999999
+>>>>>>> ProyectoSotware
+
 
 

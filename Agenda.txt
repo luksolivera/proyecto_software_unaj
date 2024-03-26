@@ -3,5 +3,11 @@ lucas = 987654321
 Carlos = 1234567892
 raul = 99999999999999999999999
 pepe = 894328934289342
+Augusto = 13999494
+Juanito Arcoiris = 1929393
+Cosme Fulanito = 121222
+
+
+
 
 

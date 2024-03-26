@@ -7,3 +7,5 @@ Carlos = 123456789
 Gaston = 987654321
 David = 456987
 Rafael = 963852741
+Arturo = 741852963
+Julio = 852963

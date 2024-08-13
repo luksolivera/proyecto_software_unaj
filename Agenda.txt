@@ -1,6 +1,7 @@
 Camila = 1199887766
 Agostina = 1122334455
 Violeta = 1188559976
+Dolores = 1166554433
 Juan = 4251
 lucas = 987654321
 Carlos = 1234567892

@@ -14,6 +14,9 @@ Mariano Ruiz = 1132771165
 Cristopher Muñoz Castro = 1176027807
 Cristian Ponce = 1163032360
 Dario = 1149979889
+Abigail = 1159789875
+Cristian = 1146793474
+
 
 
 

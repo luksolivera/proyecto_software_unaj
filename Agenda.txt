@@ -3,5 +3,18 @@ lucas = 987654321
 Carlos = 1234567892
 raul = 99999999999999999999999
 pepe = 894328934289342
+Gaston Yirula = 1131604052
+Marcos Alvarez= 1171507158
+Matias Silva = 1162163719
+Florencia De Zan = 1126978939
+Benjamin Dure = 11639392996
+Enrique Pozorski = 1139116942
+Gaston Ulises Vilte = 1123466775
+Mariano Ruiz = 1132771165
+Cristopher Muñoz Castro = 1176027807
+Cristian Ponce = 1163032360
+Dario = 1149979889
+
+
 
 

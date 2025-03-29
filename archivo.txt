@@ -1,0 +1,6 @@
+echo "Nuevo contenido" >> archivo.txt
+
+git add archivo.txt
+
+git commit -m "Agregado nuevo contenido a archivo.txt"
+git push origin Caruso-Julian

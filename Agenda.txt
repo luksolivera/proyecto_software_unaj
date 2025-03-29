@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 Carlos = 123456789
 Lucas = 987654321
 Jorge = 321654987
 Jose = 654987321
+=======
+Maria = 123567892
+Lucas = 987654321
+>>>>>>> ProyectoSoftware

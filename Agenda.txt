@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Carlos = 123456789 Lucas = 987654321 Pedro = 147852369 Gonzalo = 963258741
+=======
+Carlos = 123456789
+Jaim = 1169199447
+>>>>>>> ProyectoSoftware

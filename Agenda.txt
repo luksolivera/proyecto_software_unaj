@@ -9,4 +9,8 @@ Leo = 1124061987
 =======
 Leo = 1124061987
 Mauro = 5238238643
+<<<<<<< HEAD
+>>>>>>> ProyectoSoftware
+=======
+
 >>>>>>> ProyectoSoftware

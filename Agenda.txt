@@ -1,7 +1,14 @@
 Juan = 4251
+ARIEL=784512594
 lucas = 987654321
 Carlos = 1234567892
 raul = 99999999999999999999999
 pepe = 894328934289342
-
-
+Matias= 475154884
+cristian=7845120
+<<<<<<< HEAD
+Roberto=3333333333
+Carlo=123456789
+Brenda=78451214
+Martin=7414741
+>>>>>>> ProyectoSoftware

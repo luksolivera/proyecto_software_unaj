@@ -1,8 +1,5 @@
-Juan = 4251
-lucas = 1111111111
 Carlos = 123456789
-maria= 718293456
-
-pepe = 894328934289342
-estefi= 12151481
+Lucas = 987654321
+Maria = 987654321
+Jose = 541646544(como en el ejemplo)
 

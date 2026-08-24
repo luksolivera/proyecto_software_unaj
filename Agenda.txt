@@ -1,4 +1,4 @@
-Heisenberg = 72000010
+Heisenberg = 71999999
 Pinkman = 12398728
 White = 98561597
 Juan = 4251
